@@ -1,5 +1,6 @@
 # Tutorials Vue2 NuxtJs NodeJs VisualStudioCode GitHub GitBash Plyr🕊
-
+ctrl + X   = will clear the line your cursor is on![Screenshot 2021-05-31 034203](https://user-images.githubusercontent.com/63293696/120132493-57747c00-c1c2-11eb-80e6-dea4db2b65d3.png)
+ 
 ## Build Setup
 
 ```bash
