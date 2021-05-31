@@ -1,4 +1,4 @@
-# tutorial-one
+# Tutorials Vue2 NuxtJs NodeJs VisualStudioCode GitHub GitBash Plyr🕊
 
 ## Build Setup
 
