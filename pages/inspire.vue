@@ -1,9 +1,8 @@
 <template>
-  <div>
-    <div>
+  <div align="center"
+      justify="center">
       <p>{{ message2 }}</p>
       <input v-model="message2" />
-    </div>
 
     <div>{{ message }}</div>
 
@@ -22,15 +21,26 @@
         </li>
       </ol>
     </div>
-
     <div>
       <p>{{ message }}</p>
       <button v-on:click="reverseMessage">Reverse Message</button>
     </div>
+
+
+<Component2>  <todo-item
+      v-for="item in groceryList"
+      v-bind:todo="item"
+      v-bind:key="item.id"
+    ></todo-item></Component2>
+
+
+
   </div>
 </template>
 
 <script>
+import Component2 from "../components/Component2"
+
 export default {
   data() {
     return {
@@ -50,5 +60,9 @@ export default {
       this.message = this.message.split('').reverse().join('')
     },
   },
+ components: 
+    {
+      Component2
+    }
 }
 </script>
