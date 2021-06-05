@@ -59,7 +59,7 @@
     </v-app-bar>
     <v-main>
       <v-container>
-        <nuxt />
+        <nuxt keep-alive :keep-alive-props="{ max: 10 }"/>
       </v-container>
     </v-main>
     <v-navigation-drawer

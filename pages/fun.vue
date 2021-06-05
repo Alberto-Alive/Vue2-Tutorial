@@ -8,19 +8,13 @@
 
 <script>
 export default {
-  layout: 'layoutnew',
-  // page component definitions
-  asyncData() {
-    return { renderedOn: process.client ? 'client' : 'server' }
-  },
-  beforeMount() {
-    window.alert('hello')
-  },
-  // mounted() {
-  //  async function f() {
-  // return Promise.resolve(contextwindow.alert('Hello'));
-
-}f().then(alert);
-  },
+  
 }
 </script>
+
+
+<style scoped>
+.nuxt-link-active {
+  color: red;
+}
+</style>

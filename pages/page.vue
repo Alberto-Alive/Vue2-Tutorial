@@ -17,3 +17,17 @@
 
 </div>
 </template>
+<script>
+
+export default {
+     transition: 'page'
+}
+</script>
+
+<style scoped>
+.my-custom-active-link {
+  color: green;
+}
+.home-enter-active, .home-leave-active { transition: opacity .5s; }
+  .home-enter, .home-leave-active { opacity: 0; }
+</style>

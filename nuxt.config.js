@@ -29,6 +29,14 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
+  loading: {
+    color: 'red',
+    height: '500px'
+  },
+  router: {
+    linkActiveClass: 'my-custom-active-link'
+  },
+  
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
